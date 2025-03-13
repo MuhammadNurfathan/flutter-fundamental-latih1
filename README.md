@@ -15,7 +15,7 @@ praktikum 1
 
 Praktikum 2
 ![Screenshoot Hello_World](images/11.png)
-![Screenshoot Hello_World](images/12.mp4)
+![Screenshoot Hello_World](images/12.gif)
 
 Praktikum 3
 ![Screenshoot Hello_World](images/01.png)
@@ -30,7 +30,7 @@ Praktikum 5
 ![Screenshoot Hello_World](images/06.png)
 !['GIF Hello World](images/07.gif)
 !['GIF Hello World](images/10.png)
-!['Video Hello World](images/08.mp4)
+!['Video Hello World](images/08.gif)
 !['Screenshoot Hello World](images/09.png)
 
 

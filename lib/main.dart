@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:hello_world/basic_widgets/Floating_Action_Button.dart';
 // ignore: unused_import
 import 'package:hello_world/basic_widgets/image_widget.dart';
-import 'package:hello_world/basic_widgets/loading_cupertino.dart';
 // ignore: unused_import
 import 'basic_widgets/text_widget.dart';
+import 'basic_widgets/scaffold.dart';
 
 void main() {
   runApp(const MyApp());
@@ -110,7 +109,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const CustomFloatingButton(),
+            const Scaffold(),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,

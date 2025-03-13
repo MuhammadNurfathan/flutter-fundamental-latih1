@@ -1,8 +1,17 @@
 # hello_world
+Nama : Muhammad Nurfathan Athaillah Humaedi
+NIM  : 230444040010
 
-A new Flutter project.
 praktikum 1
-
+![Screenshoot Hello_World](images/13.png)
+![Screenshoot Hello_World](images/14.png)
+![Screenshoot Hello_World](images/15.png)
+![Screenshoot Hello_World](images/16.png)
+![Screenshoot Hello_World](images/17.png)
+![Screenshoot Hello_World](images/18.png)
+![Screenshoot Hello_World](images/19.png)
+![Screenshoot Hello_World](images/20.png)
+![Screenshoot Hello_World](images/21.png)
 
 Praktikum 2
 ![Screenshoot Hello_World](images/11.png)

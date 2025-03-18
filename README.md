@@ -52,7 +52,7 @@ Selamat datang di repositori ini! 🎉 Ini adalah kumpulan hasil dari praktikum 
 ### Screenshots 📸  
 ![Hello_World](images/04.png)  
 ![Hello_World](images/05.png)  
-![Hello_World](images/06.png) 
+![Hello_World](images/06.png)  
 ![Hello_World](images/07.png)  
 ![Hello_World](images/26.png)  
 ![Hello_World](images/27.png)  

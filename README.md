@@ -35,7 +35,6 @@ Selamat datang di repositori ini! 🎉 Ini adalah kumpulan hasil dari praktikum 
 ---
 
 ## 🎨 Praktikum 3: Layout & Styling  
-Eksperimen dengan layout responsif dan tampilan yang menarik.  
 ### Screenshots 📸  
 ![Hello_World](images/01.png)  
 ![Hello_World](images/23.png)  

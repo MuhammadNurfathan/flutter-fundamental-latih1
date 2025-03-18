@@ -14,10 +14,17 @@ praktikum 1
 ![Screenshoot Hello_World](images/21.png)
 
 Praktikum 2
-![Screenshoot Hello_World](images/11.png)
-![Screenshoot Hello_World](images/12.gif)
+![GIF Hello_World](images/01.gif)
+![GIF Hello_World](images/08.gif)
+![GIF Hello_World](images/09.gif)
+![GIF Hello_World](images/10.gif)
+![GIF Hello_World](images/11.gif)
+![GIF Hello_World](images/12.gif)
+![GIF Hello_World](images/24.gif)
+![GIF Hello_World](images/25.gif)
 
 Praktikum 3
+![Screenshoot Hello_World](images/01.png)
 ![Screenshoot Hello_World](images/23.png)
 
 Praktikum 4
@@ -28,10 +35,10 @@ Praktikum 5
 ![Screenshoot Hello_World](images/04.png)
 ![Screenshoot Hello_World](images/05.png)
 ![Screenshoot Hello_World](images/06.png)
-!['GIF Hello World](images/07.gif)
-!['GIF Hello World](images/10.png)
-!['Video Hello World](images/08.gif)
-!['Screenshoot Hello World](images/09.png)
+!['Screenshoot Hello World](images/07.png)
+!['Screenshoot Hello World](images/26.png)
+!['Screenshoot Hello World](images/27.png)
+
 
 
 ## Getting Started

@@ -21,9 +21,14 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        primaryColor: Colors.lightBlue,
-        colorScheme: ColorScheme.fromSwatch().copyWith(
-          secondary: Colors.lightBlueAccent,
+        primarySwatch: Colors.blue,
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+            padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 24),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12),
+            ),
+          ),
         ),
       ),
       home: const HomePage(),
@@ -36,29 +41,28 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomScaffold(
-      title: 'Muhammad Nurfathan',
-      body: Center(
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Muhammad Nurfathan', style: TextStyle(fontWeight: FontWeight.bold)),
+        backgroundColor: Colors.lightBlueAccent,
+        centerTitle: true,
+        elevation: 4,
+      ),
+      body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.all(16.0), // Padding biar tidak mepet
+          padding: const EdgeInsets.all(16.0),
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center, // Tengah secara vertikal
-            crossAxisAlignment: CrossAxisAlignment.center, // Tengah secara horizontal
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              const Text(
-                'You have pushed the button this many times:',
-                style: TextStyle(fontSize: 16.0),
-              ),
-              const SizedBox(height: 20), // Jarak antar elemen
-
-              // Tombol Navigasi ke Widget Lain
-              _buildNavButton(context, "Text Widget", const MyTextWidget()),
-              _buildNavButton(context, "Selection Widget", const SelectionWidget()),
-              _buildNavButton(context, "Date Picker", const DateTimePicker()),
-              _buildNavButton(context, "Loading Cupertino", const LoadingCupertino()),
-              _buildNavButton(context, "Image Widget", const MyImageWidget()),
-              _buildNavButton(context, "Floating Button", const CustomFloatingButton()),
-              _buildNavButton(context, "Show Dialog", null),
+              _buildNavCard(context, "Text Widget", const MyTextWidget()),
+              _buildNavCard(context, "Selection Widget", const SelectionWidget()),
+              _buildNavCard(context, "Date Picker", const DateTimePicker()),
+              _buildNavCard(context, "Loading Cupertino", const LoadingCupertino()),
+              _buildNavCard(context, "Image Widget", const MyImageWidget()),
+              _buildNavCard(context, "Floating Button", const CustomFloatingButton()),
+              _buildNavCard(context, "Show Dialog", null),
+              _buildNavCard(context, "Show Scaffold", const CustomScaffold(body: Center(child: Text("Ini halaman Scaffold")))),
             ],
           ),
         ),
@@ -66,23 +70,39 @@ class HomePage extends StatelessWidget {
     );
   }
 
-  Widget _buildNavButton(BuildContext context, String title, Widget? page) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 8.0), // Jarak antar tombol
-      child: ElevatedButton(
-        onPressed: () {
+  Widget _buildNavCard(BuildContext context, String title, Widget? page) {
+    return Card(
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(12),
+      ),
+      elevation: 5,
+      margin: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 8.0),
+      child: ListTile(
+        contentPadding: const EdgeInsets.all(16.0),
+        title: Text(
+          title,
+          style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: Colors.black87),
+        ),
+        trailing: const Icon(Icons.arrow_forward_ios, size: 18, color: Colors.grey),
+        onTap: () {
+          print("Navigating to $title");
           if (page != null) {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => CustomScaffold(title: title, body: page),
+                builder: (context) => Scaffold(
+                  appBar: AppBar(
+                    title: Text(title),
+                    backgroundColor: Colors.lightBlueAccent,
+                  ),
+                  body: Center(child: page),
+                ),
               ),
             );
           } else {
             showAlertDialog(context);
           }
         },
-        child: Text(title),
       ),
     );
   }

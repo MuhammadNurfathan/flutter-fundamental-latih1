@@ -13,8 +13,9 @@ praktikum 1
 ![Screenshoot Hello_World](images/20.png)
 ![Screenshoot Hello_World](images/21.png)
 
+
 Praktikum 2
-![GIF Hello_World](images/keseluruhan.gif)
+![GIF Hello_World](images/Keseluruhan.gif)
 ![GIF Hello_World](images/01.gif)
 ![GIF Hello_World](images/08.gif)
 ![GIF Hello_World](images/09.gif)

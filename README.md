@@ -1,47 +1,62 @@
-# hello_world
-Nama : Muhammad Nurfathan Athaillah Humaedi
-NIM  : 230444040010
+# Hello World - Praktikum Flutter 🚀  
+**Nama:** Muhammad Nurfathan Athaillah Humaedi  
+**NIM:** 230444040010  
 
-praktikum 1
-![Screenshoot Hello_World](images/13.png)
-![Screenshoot Hello_World](images/14.png)
-![Screenshoot Hello_World](images/15.png)
-![Screenshoot Hello_World](images/16.png)
-![Screenshoot Hello_World](images/17.png)
-![Screenshoot Hello_World](images/18.png)
-![Screenshoot Hello_World](images/19.png)
-![Screenshoot Hello_World](images/20.png)
-![Screenshoot Hello_World](images/21.png)
+Selamat datang di repositori ini! 🎉 Ini adalah kumpulan hasil dari praktikum Flutter yang saya kerjakan. Setiap praktikum berisi eksperimen menarik seputar pengembangan aplikasi mobile dengan Flutter.  
 
+---
 
-Praktikum 2
-![GIF Hello_World](images/Keseluruhan.gif)
-![GIF Hello_World](images/01.gif)
-![GIF Hello_World](images/08.gif)
-![GIF Hello_World](images/09.gif)
-![GIF Hello_World](images/10.gif)
-![GIF Hello_World](images/11.gif)
-![GIF Hello_World](images/12.gif)
-![GIF Hello_World](images/24.gif)
-![GIF Hello_World](images/25.gif)
+## 📌 Praktikum 1: Dasar Flutter  
+### Screenshots 📸  
+![Hello_World](images/13.png)  
+![Hello_World](images/14.png)  
+![Hello_World](images/15.png)  
+![Hello_World](images/16.png)  
+![Hello_World](images/17.png)  
+![Hello_World](images/18.png)  
+![Hello_World](images/19.png)  
+![Hello_World](images/20.png)  
+![Hello_World](images/21.png)  
 
-Praktikum 3
-![Screenshoot Hello_World](images/01.png)
-![Screenshoot Hello_World](images/23.png)
+---
 
-Praktikum 4
-![Screenshoot Hello_World](images/02.png)
-![Screenshoot Hello_World](images/03.png)
+## 🎬 Praktikum 2
+### Demo (GIF) 🎥  
+![GIF](images/Keseluruhan.gif)  
+![GIF](images/01.gif)  
+![GIF](images/08.gif)  
+![GIF](images/09.gif)  
+![GIF](images/10.gif)  
+![GIF](images/11.gif)  
+![GIF](images/12.gif)  
+![GIF](images/24.gif)  
+![GIF](images/25.gif)  
 
-Praktikum 5
-![Screenshoot Hello_World](images/04.png)
-![Screenshoot Hello_World](images/05.png)
-![Screenshoot Hello_World](images/06.png)
-!['Screenshoot Hello World](images/07.png)
-!['Screenshoot Hello World](images/26.png)
-!['Screenshoot Hello World](images/27.png)
+---
 
+## 🎨 Praktikum 3: Layout & Styling  
+Eksperimen dengan layout responsif dan tampilan yang menarik.  
+### Screenshots 📸  
+![Hello_World](images/01.png)  
+![Hello_World](images/23.png)  
 
+---
+
+## 🛠 Praktikum 4: State Management  
+### SCreenshots 📸  
+![Hello_World](images/02.png)  
+![Hello_World](images/03.png)  
+
+---
+
+## 📲 Praktikum 5
+### Screenshots 📸  
+![Hello_World](images/04.png)  
+![Hello_World](images/05.png)  
+![Hello_World](images/06.png)  
+![Hello_World](images/07.png)  
+![Hello_World](images/26.png)  
+![Hello_World](images/27.png)  
 
 ## Getting Started
 

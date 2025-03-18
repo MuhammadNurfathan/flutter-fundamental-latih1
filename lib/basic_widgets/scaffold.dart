@@ -1,34 +1,16 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MyScaffold());
-}
-
-class MyScaffold extends StatelessWidget {
-  const MyScaffold({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const MyHomePage(title: 'Scaffold Example'),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
-
+class CustomScaffold extends StatefulWidget {
   final String title;
+  final Widget body;
+
+  const CustomScaffold({Key? key, required this.title, required this.body}) : super(key: key);
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<CustomScaffold> createState() => _CustomScaffoldState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _CustomScaffoldState extends State<CustomScaffold> {
   int _counter = 0;
 
   void _incrementCounter() {
@@ -39,20 +21,36 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(  // ✅ Wajib pakai Scaffold
+    return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
+        backgroundColor: Colors.lightBlue,
       ),
       body: Center(
-        child: Text(
-          'Counter: $_counter',
-          style: const TextStyle(fontSize: 24),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            widget.body, // Menampilkan konten halaman
+            const SizedBox(height: 20), // Jarak antara widget dan counter
+            Text(
+              'Counter: $_counter',
+              style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+            ),
+          ],
         ),
+      ),
+      bottomNavigationBar: BottomAppBar(
+        color: Colors.lightBlueAccent,
+        shape: const CircularNotchedRectangle(),
+        child: const SizedBox(height: 50.0),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
+        tooltip: 'Increment',
+        backgroundColor: Colors.lightBlue,
         child: const Icon(Icons.add),
       ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
   }
 }

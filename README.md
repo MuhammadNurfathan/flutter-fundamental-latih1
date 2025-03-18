@@ -2,11 +2,11 @@
 **Nama:** Muhammad Nurfathan Athaillah Humaedi  
 **NIM:** 230444040010  
 
-Selamat datang di repositori ini! 🎉 Ini adalah kumpulan hasil dari praktikum Flutter yang saya kerjakan. Setiap praktikum berisi eksperimen menarik seputar pengembangan aplikasi mobile dengan Flutter.  
+Selamat datang di repositori ini! 🎉 Ini adalah kumpulan hasil dari praktikum Flutter yang saya kerjakan. Setiap praktikum berisi eksperimen menarik seputar pengembangan aplikasi mobile dengan Flutter yang telah di intruksikan oleh dosen kami pak Ary budi warsito.  
 
 ---
 
-## 📌 Praktikum 1: Dasar Flutter  
+## 📌 Praktikum 1
 ### Screenshots 📸  
 ![Hello_World](images/13.png)  
 ![Hello_World](images/14.png)  
@@ -34,14 +34,14 @@ Selamat datang di repositori ini! 🎉 Ini adalah kumpulan hasil dari praktikum 
 
 ---
 
-## 🎨 Praktikum 3: Layout & Styling  
+## 🎨 Praktikum 3
 ### Screenshots 📸  
 ![Hello_World](images/01.png)  
 ![Hello_World](images/23.png)  
 
 ---
 
-## 🛠 Praktikum 4: State Management  
+## 🛠 Praktikum 4
 ### SCreenshots 📸  
 ![Hello_World](images/02.png)  
 ![Hello_World](images/03.png)  
